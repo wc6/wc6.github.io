@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>excel function filter</title>
+    <url>/2022/06/13/excel-function-filter/</url>
+    <content><![CDATA[<h3 id="excel-函数-Filter"><a href="#excel-函数-Filter" class="headerlink" title="excel 函数 Filter"></a>excel 函数 Filter</h3><p>Tips: <strong>仅在office365环境下测试</strong><br>作用：过滤，返回值&#x2F;区域。  </p>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><img src="/2022/06/13/excel-function-filter/18-24-07.png" class="" title="请修改成效果图地址" loading="lazy">
+
+<h4 id="公式详解"><a href="#公式详解" class="headerlink" title="公式详解"></a>公式详解</h4><p>filter( A5:D20 , (C5:C20&#x3D;H1)*(A5:A20&#x3D;H2) , “” )  </p>
+<p>  <strong>A5:D20</strong> ： 需要返回的区域<br>  <strong>(C5:C20&#x3D;H1)*(A5:A20&#x3D;H2)</strong> ：  交集，区域 &#x3D; 条件。并集 为 <strong>+</strong><br>  <strong>空</strong> :  如果没得结果，返回””</p>
+<p>官方讲解：<a href="https://support.microsoft.com/en-us/office/filter-function-f4f7cb66-82eb-4767-8f7c-4877ad80c759">https://support.microsoft.com/en-us/office/filter-function-f4f7cb66-82eb-4767-8f7c-4877ad80c759</a><br>youtube讲解：<a href="https://www.youtube.com/watch?v=aO_B2xj_rhc">https://www.youtube.com/watch?v=aO_B2xj_rhc</a></p>
+]]></content>
+      <tags>
+        <tag>excel function</tag>
+        <tag>filter</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/06/09/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
